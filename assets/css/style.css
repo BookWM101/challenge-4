@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.header {
+    height: 100px;
+    width: 100%;
+    align-items: right;
+}
+
+.section {
+    display: inline;
+}
+
+.div {
+    margin: 0 auto;
+    height: 500px;
+    width: 50%;
+    color: black;
+    border: solid 5px black;
+}
+input {
+    color: black;
+    width: 100px;
+    text-align: left;
+}
+
+textarea {
+    color: black;
+    height: 100px;
+    width: 200px;
+    text-align: left;
+}
+
+img {
+    height: 200px;
+    width: 400px;
+    margin: 0 auto;
+    border: solid 5px black;
+}
+
+button {
+    height: 10px;
+    width: 50px;
+    border: solid 5px white;
+    background-color: black;
+    color: white;
+}
